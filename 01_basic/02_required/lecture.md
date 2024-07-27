@@ -1,7 +1,6 @@
 ### モジュールの読み込み方法 【require】
 
--   require は、Node.js が最初に登場したときから使われている
--   require はその頃からモジュールを読み込むための方法
+-   require は、Node.js が最初に登場したときから使われているモジュールを読み込むための方法
 -   require の特徴
 
     -   同期的：すぐに読み込むため、読み込み中にコードの実行が止まることがある
@@ -9,7 +8,7 @@
 
 <br/>
 
-##### モジュールを公開する（単一の値）
+##### 単一のエクスポート
 
 ```javascript
 // myModule.js
@@ -21,9 +20,9 @@ module.exports = sayHello; // この関数をエクスポート
 
 <br/>
 
-##### モジュールを公開する（複数の値）
+##### 複数のエクスポート
 
-````javascript
+```javascript
 // myModule.js
 const sayHello = () => {
     console.log('Hello, world!');
@@ -33,12 +32,12 @@ const sayGoodbye = () => {
     console.log('Goodbye, world!');
 };
 
-module.exports = { sayHello, sayGoodbye }; // 複数のものをエクスポート```
-````
+module.exports = { sayHello, sayGoodbye }; // 複数のものをエクスポート
+```
 
 <br/>
 
-##### モジュールを読み込む
+##### モジュールのインポート
 
 ```javascript
 const myModule = require('./myModule');
