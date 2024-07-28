@@ -1,6 +1,6 @@
+// ### playwrghtの使用
 // ### ⭐︎この課題はカレントディレクトリを05_playwrghtにしてから実行してください。
 
-// ### playwrghtの使用
 // ##### 制約
 // `npx playwright install` を実行して端末にplaywrightをインストールしてください。
 // モジュールの読み込みにはimportを使ってください。
