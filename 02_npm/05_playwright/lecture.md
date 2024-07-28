@@ -1,6 +1,6 @@
 ### [playwright](https://www.npmjs.com/package/playwright)
 
--   概要: Web ブラウザを自動で操作するためのライブラリ。テストやデータ収集に使えるよ。
+-   概要: Web ブラウザを自動で操作するためのライブラリ。テストやデータ収集に使える。
 -   使い方: Web ページの操作を自動化するためのテストやスクレイピングに使う。
 -   インストール: `npm install playwright`
 
