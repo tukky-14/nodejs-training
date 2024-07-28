@@ -7,6 +7,7 @@
 // package.jsonは03_npm/03_axiosディレクトリに作成してください。
 //
 // ##### 問題
+// axiosをインストールしてください。
 // axiosを使って、以下のAPIを叩いてください。
 // https://jsonplaceholder.typicode.com/posts
 // その後、取得したデータのtitleだけを抽出し、コンソールに表示してください。

@@ -69,6 +69,7 @@ const runCommand = (command) => {
             return;
         }
         console.log(`標準出力: ${stdout}`);
+        process.exit(0); // 成功した場合に正常終了
     });
 };
 
