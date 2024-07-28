@@ -1,14 +1,14 @@
 ### Node.js とは
 
 -   Node.js はサーバーサイドの JavaScript を実行するための環境
--   ブラウザ上という制限された環境でしか動けなかった JavaScript を、Python や Ruby のようにパソコン上で動かせるようにしてくれる
+-   ブラウザ上という制限された環境でしか動けなかった JavaScript を、Python や Ruby のようにパソコン上で動かせるようにしてくれる  
     [Node.js とはなにか？なぜみんな使っているのか？](https://qiita.com/non_cal/items/a8fee0b7ad96e67713eb)
 
 <br/>
 
 ### Node.js のインストール
 
--   以下の公式サイトから環境に合わせた Node.js をインストール
+-   以下の公式サイトから環境に合わせた Node.js をインストール  
     [Node.js 公式サイト](https://nodejs.org/en/)
 -   Windows の場合、必要に応じて環境変数を設定する
 
